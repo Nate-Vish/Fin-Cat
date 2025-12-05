@@ -2,10 +2,10 @@
 
 **Automate your Hebrew credit card expense tracking using AI.**
 
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
-[![AI Powered](https://img.shields.io/badge/AI-Claude-purple.svg)](https://www.anthropic.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+ ![Built with AutoMates](https://img.shields.io/badge/Built%20with-AutoMates-8A2BE2.svg?style=flat-square&logo=github&logoColor=white)
+ ![Language: Python](https://img.shields.io/badge/Language-Python-3776AB.svg?style=flat&logo=python&logoColor=white)
+ ![AI assisted: Claude](https://img.shields.io/badge/AI%20assisted-Claude-FF7A18.svg?style=flat-square)
+ ![License: MIT](https://img.shields.io/badge/License-MIT-4D4D4D.svg?style=flat)
 ---
 
 ## 📖 Overview
@@ -17,8 +17,8 @@ FinCat is a Python automation tool that monitors a folder for Hebrew credit card
 ### What It Does
 
 1. **Monitors** a folder for new credit card files
-2. **Parses** Hebrew transaction data (supports all major Israeli banks)
-3. **Categorizes** each expense using AI (97%+ accuracy)
+2. **Parses** Hebrew transaction data
+3. **Categorizes** each expense using AI
 4. **Appends** to master Excel tracking file
 5. **Archives** processed files automatically
 
@@ -351,7 +351,7 @@ Having issues?
 
 ---
 
-**Built with ❤️ using AI-driven development**
+**Built with Auto-Mates Agentic AI framework**
 
 **Version:** 2.0
 **Status:** Production Ready ✅
