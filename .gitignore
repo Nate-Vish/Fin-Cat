@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# FinCat specific - SECRETS AND DATA
+**/.env
+*.log
+**/data/*.xlsx
+**/data/*.xls
+**/data/.processing_history.json
+**/input/*
+**/processed/*
+**/logs/*
+
+# Keep example and placeholder files
+!**/.env.example
+!**/data/.gitkeep
+!**/input/.gitkeep
+!**/processed/.gitkeep
+!**/logs/.gitkeep
+!**/tests/fixtures/*.xls
+!**/tests/fixtures/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+
+# Documentation build
+docs/_build/
+site/

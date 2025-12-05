@@ -1,0 +1,29 @@
+# FinCat Configuration
+
+folders:
+  input: "./input"
+  processed: "./processed"
+  data: "./data"
+  logs: "./logs"
+
+ai:
+  model: "claude-3-haiku-20240307"
+  batch_size: 50
+  max_retries: 3
+  timeout: 10
+  temperature: 0
+
+processing:
+  watch_mode: true
+  check_interval: 1
+  file_stability_wait: 2
+
+excel:
+  master_file: "מעקב_חיובים.xlsx"
+  categories_file: "קטגוריות.xlsx"
+  file_lock_wait: 30
+
+logging:
+  level: "INFO"
+  max_size_mb: 10
+  backup_count: 5
